@@ -4,9 +4,41 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/PWByteUtils.h</key>
+		<data>
+		SgTFGESM5IqsaJY9ofekUUiZAwo=
+		</data>
+		<key>Headers/PWDataReaderController.h</key>
+		<data>
+		/laZhq1GjLhF2NtcOv2e1V7U2mg=
+		</data>
+		<key>Headers/PWDataReaderDelegate.h</key>
+		<data>
+		acMdrbAlvVA3vVwk5102JG65jF0=
+		</data>
+		<key>Headers/PWEtactCmd.h</key>
+		<data>
+		ollJGjVtULlS0LdYErigvmvqv1Q=
+		</data>
+		<key>Headers/PWEtactCommands.h</key>
+		<data>
+		9xRxoOb39w4QIurilqi8ow9L9UY=
+		</data>
+		<key>Headers/PWEtactReader.h</key>
+		<data>
+		JlsCjxQ2QxolGgZ0CpiXTG/WzWo=
+		</data>
 		<key>Headers/PulseWaveFramework.h</key>
 		<data>
 		6jwhkVh4zdLElINcqi+n/9QEO60=
+		</data>
+		<key>Headers/RscMgr.h</key>
+		<data>
+		+M47PLgtXRIJJrNS42CYwKUMulY=
+		</data>
+		<key>Headers/redparkSerial.h</key>
+		<data>
+		XNEzlrXWeNGisz7zVLsMONqCjw8=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -18,14 +50,46 @@
 		</data>
 		<key>PulseWaveFramework.podspec</key>
 		<data>
-		1cW3kEQrkksi2Dsw5zervSJ7ecs=
+		6Pr0NzjIPOh5DaOG8E+KD4zqQfw=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/PWByteUtils.h</key>
+		<data>
+		SgTFGESM5IqsaJY9ofekUUiZAwo=
+		</data>
+		<key>Headers/PWDataReaderController.h</key>
+		<data>
+		/laZhq1GjLhF2NtcOv2e1V7U2mg=
+		</data>
+		<key>Headers/PWDataReaderDelegate.h</key>
+		<data>
+		acMdrbAlvVA3vVwk5102JG65jF0=
+		</data>
+		<key>Headers/PWEtactCmd.h</key>
+		<data>
+		ollJGjVtULlS0LdYErigvmvqv1Q=
+		</data>
+		<key>Headers/PWEtactCommands.h</key>
+		<data>
+		9xRxoOb39w4QIurilqi8ow9L9UY=
+		</data>
+		<key>Headers/PWEtactReader.h</key>
+		<data>
+		JlsCjxQ2QxolGgZ0CpiXTG/WzWo=
+		</data>
 		<key>Headers/PulseWaveFramework.h</key>
 		<data>
 		6jwhkVh4zdLElINcqi+n/9QEO60=
+		</data>
+		<key>Headers/RscMgr.h</key>
+		<data>
+		+M47PLgtXRIJJrNS42CYwKUMulY=
+		</data>
+		<key>Headers/redparkSerial.h</key>
+		<data>
+		XNEzlrXWeNGisz7zVLsMONqCjw8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -33,7 +97,7 @@
 		</data>
 		<key>PulseWaveFramework.podspec</key>
 		<data>
-		1cW3kEQrkksi2Dsw5zervSJ7ecs=
+		6Pr0NzjIPOh5DaOG8E+KD4zqQfw=
 		</data>
 	</dict>
 	<key>rules</key>
