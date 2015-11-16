@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6EBAF941BFA2A53002F7BD1 /* PulseWaveFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EBAF931BFA2A53002F7BD1 /* PulseWaveFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6EBAFAA1BFA2A72002F7BD1 /* PWByteUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EBAF9B1BFA2A72002F7BD1 /* PWByteUtils.h */; settings = {ASSET_TAGS = (); }; };
+		E6EBAFAB1BFA2A72002F7BD1 /* PWByteUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EBAF9C1BFA2A72002F7BD1 /* PWByteUtils.m */; settings = {ASSET_TAGS = (); }; };
+		E6EBAFAC1BFA2A72002F7BD1 /* PWDataReaderController.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EBAF9D1BFA2A72002F7BD1 /* PWDataReaderController.h */; settings = {ASSET_TAGS = (); }; };
+		E6EBAFAD1BFA2A72002F7BD1 /* PWDataReaderController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EBAF9E1BFA2A72002F7BD1 /* PWDataReaderController.m */; settings = {ASSET_TAGS = (); }; };
+		E6EBAFAE1BFA2A72002F7BD1 /* PWDataReaderDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EBAF9F1BFA2A72002F7BD1 /* PWDataReaderDelegate.h */; settings = {ASSET_TAGS = (); }; };
+		E6EBAFAF1BFA2A72002F7BD1 /* PWEtactCmd.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EBAFA01BFA2A72002F7BD1 /* PWEtactCmd.h */; settings = {ASSET_TAGS = (); }; };
+		E6EBAFB01BFA2A72002F7BD1 /* PWEtactCmd.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EBAFA11BFA2A72002F7BD1 /* PWEtactCmd.m */; settings = {ASSET_TAGS = (); }; };
+		E6EBAFB11BFA2A72002F7BD1 /* PWEtactCommands.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EBAFA21BFA2A72002F7BD1 /* PWEtactCommands.h */; settings = {ASSET_TAGS = (); }; };
+		E6EBAFB21BFA2A72002F7BD1 /* PWEtactCommands.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EBAFA31BFA2A72002F7BD1 /* PWEtactCommands.m */; settings = {ASSET_TAGS = (); }; };
+		E6EBAFB31BFA2A72002F7BD1 /* PWEtactReader.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EBAFA41BFA2A72002F7BD1 /* PWEtactReader.h */; settings = {ASSET_TAGS = (); }; };
+		E6EBAFB41BFA2A72002F7BD1 /* PWEtactReader.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EBAFA51BFA2A72002F7BD1 /* PWEtactReader.m */; settings = {ASSET_TAGS = (); }; };
+		E6EBAFB51BFA2A72002F7BD1 /* libRscMgrUniv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6EBAFA61BFA2A72002F7BD1 /* libRscMgrUniv.a */; settings = {ASSET_TAGS = (); }; };
+		E6EBAFB61BFA2A72002F7BD1 /* redparkSerial.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EBAFA71BFA2A72002F7BD1 /* redparkSerial.h */; settings = {ASSET_TAGS = (); }; };
+		E6EBAFB71BFA2A72002F7BD1 /* RscMgr.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EBAFA81BFA2A72002F7BD1 /* RscMgr.h */; settings = {ASSET_TAGS = (); }; };
+		E6EBAFBA1BFA2C19002F7BD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6EBAFB91BFA2C19002F7BD1 /* Foundation.framework */; };
+		E6EBAFC01BFA4A5A002F7BD1 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6EBAFBF1BFA4A5A002F7BD1 /* CocoaLumberjack.framework */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E6EBAF901BFA2A53002F7BD1 /* PulseWaveFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PulseWaveFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6EBAF931BFA2A53002F7BD1 /* PulseWaveFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PulseWaveFramework.h; sourceTree = "<group>"; };
+		E6EBAF951BFA2A53002F7BD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6EBAF9B1BFA2A72002F7BD1 /* PWByteUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWByteUtils.h; sourceTree = "<group>"; };
+		E6EBAF9C1BFA2A72002F7BD1 /* PWByteUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWByteUtils.m; sourceTree = "<group>"; };
+		E6EBAF9D1BFA2A72002F7BD1 /* PWDataReaderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWDataReaderController.h; sourceTree = "<group>"; };
+		E6EBAF9E1BFA2A72002F7BD1 /* PWDataReaderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWDataReaderController.m; sourceTree = "<group>"; };
+		E6EBAF9F1BFA2A72002F7BD1 /* PWDataReaderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWDataReaderDelegate.h; sourceTree = "<group>"; };
+		E6EBAFA01BFA2A72002F7BD1 /* PWEtactCmd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWEtactCmd.h; sourceTree = "<group>"; };
+		E6EBAFA11BFA2A72002F7BD1 /* PWEtactCmd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWEtactCmd.m; sourceTree = "<group>"; };
+		E6EBAFA21BFA2A72002F7BD1 /* PWEtactCommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWEtactCommands.h; sourceTree = "<group>"; };
+		E6EBAFA31BFA2A72002F7BD1 /* PWEtactCommands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWEtactCommands.m; sourceTree = "<group>"; };
+		E6EBAFA41BFA2A72002F7BD1 /* PWEtactReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWEtactReader.h; sourceTree = "<group>"; };
+		E6EBAFA51BFA2A72002F7BD1 /* PWEtactReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWEtactReader.m; sourceTree = "<group>"; };
+		E6EBAFA61BFA2A72002F7BD1 /* libRscMgrUniv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libRscMgrUniv.a; sourceTree = "<group>"; };
+		E6EBAFA71BFA2A72002F7BD1 /* redparkSerial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = redparkSerial.h; sourceTree = "<group>"; };
+		E6EBAFA81BFA2A72002F7BD1 /* RscMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RscMgr.h; sourceTree = "<group>"; };
+		E6EBAFB91BFA2C19002F7BD1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E6EBAFBF1BFA4A5A002F7BD1 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CocoaLumberjack.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6EBAF8C1BFA2A53002F7BD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6EBAFBA1BFA2C19002F7BD1 /* Foundation.framework in Frameworks */,
+				E6EBAFC01BFA4A5A002F7BD1 /* CocoaLumberjack.framework in Frameworks */,
+				E6EBAFB51BFA2A72002F7BD1 /* libRscMgrUniv.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6EBAF861BFA2A53002F7BD1 = {
+			isa = PBXGroup;
+			children = (
+				E6EBAFB91BFA2C19002F7BD1 /* Foundation.framework */,
+				E6EBAF921BFA2A53002F7BD1 /* PulseWaveFramework */,
+				E6EBAF911BFA2A53002F7BD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6EBAF911BFA2A53002F7BD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6EBAF901BFA2A53002F7BD1 /* PulseWaveFramework.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6EBAF921BFA2A53002F7BD1 /* PulseWaveFramework */ = {
+			isa = PBXGroup;
+			children = (
+				E6EBAFBE1BFA4A48002F7BD1 /* Frameworks */,
+				E6EBAFBD1BFA4A40002F7BD1 /* Libs */,
+				E6EBAF9B1BFA2A72002F7BD1 /* PWByteUtils.h */,
+				E6EBAF9C1BFA2A72002F7BD1 /* PWByteUtils.m */,
+				E6EBAF9D1BFA2A72002F7BD1 /* PWDataReaderController.h */,
+				E6EBAF9E1BFA2A72002F7BD1 /* PWDataReaderController.m */,
+				E6EBAF9F1BFA2A72002F7BD1 /* PWDataReaderDelegate.h */,
+				E6EBAFA01BFA2A72002F7BD1 /* PWEtactCmd.h */,
+				E6EBAFA11BFA2A72002F7BD1 /* PWEtactCmd.m */,
+				E6EBAFA21BFA2A72002F7BD1 /* PWEtactCommands.h */,
+				E6EBAFA31BFA2A72002F7BD1 /* PWEtactCommands.m */,
+				E6EBAFA41BFA2A72002F7BD1 /* PWEtactReader.h */,
+				E6EBAFA51BFA2A72002F7BD1 /* PWEtactReader.m */,
+				E6EBAFA71BFA2A72002F7BD1 /* redparkSerial.h */,
+				E6EBAFA81BFA2A72002F7BD1 /* RscMgr.h */,
+				E6EBAF931BFA2A53002F7BD1 /* PulseWaveFramework.h */,
+				E6EBAF951BFA2A53002F7BD1 /* Info.plist */,
+			);
+			path = PulseWaveFramework;
+			sourceTree = "<group>";
+		};
+		E6EBAFBD1BFA4A40002F7BD1 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				E6EBAFA61BFA2A72002F7BD1 /* libRscMgrUniv.a */,
+			);
+			name = Libs;
+			sourceTree = "<group>";
+		};
+		E6EBAFBE1BFA4A48002F7BD1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6EBAFBF1BFA4A5A002F7BD1 /* CocoaLumberjack.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E6EBAF8D1BFA2A53002F7BD1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6EBAF941BFA2A53002F7BD1 /* PulseWaveFramework.h in Headers */,
+				E6EBAFB31BFA2A72002F7BD1 /* PWEtactReader.h in Headers */,
+				E6EBAFAC1BFA2A72002F7BD1 /* PWDataReaderController.h in Headers */,
+				E6EBAFAA1BFA2A72002F7BD1 /* PWByteUtils.h in Headers */,
+				E6EBAFB11BFA2A72002F7BD1 /* PWEtactCommands.h in Headers */,
+				E6EBAFAE1BFA2A72002F7BD1 /* PWDataReaderDelegate.h in Headers */,
+				E6EBAFB61BFA2A72002F7BD1 /* redparkSerial.h in Headers */,
+				E6EBAFAF1BFA2A72002F7BD1 /* PWEtactCmd.h in Headers */,
+				E6EBAFB71BFA2A72002F7BD1 /* RscMgr.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E6EBAF8F1BFA2A53002F7BD1 /* PulseWaveFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6EBAF981BFA2A53002F7BD1 /* Build configuration list for PBXNativeTarget "PulseWaveFramework" */;
+			buildPhases = (
+				E6EBAF8B1BFA2A53002F7BD1 /* Sources */,
+				E6EBAF8C1BFA2A53002F7BD1 /* Frameworks */,
+				E6EBAF8D1BFA2A53002F7BD1 /* Headers */,
+				E6EBAF8E1BFA2A53002F7BD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PulseWaveFramework;
+			productName = PulseWaveFramework;
+			productReference = E6EBAF901BFA2A53002F7BD1 /* PulseWaveFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6EBAF871BFA2A53002F7BD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = MEDES;
+				TargetAttributes = {
+					E6EBAF8F1BFA2A53002F7BD1 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = E6EBAF8A1BFA2A53002F7BD1 /* Build configuration list for PBXProject "PulseWaveFramework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E6EBAF861BFA2A53002F7BD1;
+			productRefGroup = E6EBAF911BFA2A53002F7BD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6EBAF8F1BFA2A53002F7BD1 /* PulseWaveFramework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6EBAF8E1BFA2A53002F7BD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6EBAF8B1BFA2A53002F7BD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6EBAFB01BFA2A72002F7BD1 /* PWEtactCmd.m in Sources */,
+				E6EBAFAB1BFA2A72002F7BD1 /* PWByteUtils.m in Sources */,
+				E6EBAFB21BFA2A72002F7BD1 /* PWEtactCommands.m in Sources */,
+				E6EBAFAD1BFA2A72002F7BD1 /* PWDataReaderController.m in Sources */,
+				E6EBAFB41BFA2A72002F7BD1 /* PWEtactReader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E6EBAF961BFA2A53002F7BD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E6EBAF971BFA2A53002F7BD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E6EBAF991BFA2A53002F7BD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/PulseWaveFramework",
+				);
+				INFOPLIST_FILE = PulseWaveFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PulseWaveFramework",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.medes.PulseWaveFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E6EBAF9A1BFA2A53002F7BD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/PulseWaveFramework",
+				);
+				INFOPLIST_FILE = PulseWaveFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PulseWaveFramework",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.medes.PulseWaveFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6EBAF8A1BFA2A53002F7BD1 /* Build configuration list for PBXProject "PulseWaveFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6EBAF961BFA2A53002F7BD1 /* Debug */,
+				E6EBAF971BFA2A53002F7BD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6EBAF981BFA2A53002F7BD1 /* Build configuration list for PBXNativeTarget "PulseWaveFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6EBAF991BFA2A53002F7BD1 /* Debug */,
+				E6EBAF9A1BFA2A53002F7BD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6EBAF871BFA2A53002F7BD1 /* Project object */;
+}

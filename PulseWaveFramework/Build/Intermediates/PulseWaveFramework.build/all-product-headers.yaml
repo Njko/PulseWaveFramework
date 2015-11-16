@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/nicolas.linard/Projects/ios/plusewaveframework/PulseWaveFramework/Build/Products/Release-iphoneos/PulseWaveFramework.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "PulseWaveFramework-Swift.h",
+          'external-contents': "/Users/nicolas.linard/Projects/ios/plusewaveframework/PulseWaveFramework/Build/Products/Release-iphoneos/PulseWaveFramework.framework/Headers/PulseWaveFramework-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "PulseWaveFramework.h",
+          'external-contents': "/Users/nicolas.linard/Projects/ios/plusewaveframework/PulseWaveFramework/PulseWaveFramework/PulseWaveFramework.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nicolas.linard/Projects/ios/plusewaveframework/PulseWaveFramework/Build/Products/Release-iphoneos/PulseWaveFramework.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/nicolas.linard/Projects/ios/plusewaveframework/PulseWaveFramework/Build/Intermediates/PulseWaveFramework.build/Release-iphoneos/PulseWaveFramework.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}
