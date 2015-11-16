@@ -8,22 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		E6EBAF941BFA2A53002F7BD1 /* PulseWaveFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EBAF931BFA2A53002F7BD1 /* PulseWaveFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E6EBAFAA1BFA2A72002F7BD1 /* PWByteUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EBAF9B1BFA2A72002F7BD1 /* PWByteUtils.h */; settings = {ASSET_TAGS = (); }; };
+		E6EBAFAA1BFA2A72002F7BD1 /* PWByteUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EBAF9B1BFA2A72002F7BD1 /* PWByteUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6EBAFAB1BFA2A72002F7BD1 /* PWByteUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EBAF9C1BFA2A72002F7BD1 /* PWByteUtils.m */; settings = {ASSET_TAGS = (); }; };
-		E6EBAFAC1BFA2A72002F7BD1 /* PWDataReaderController.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EBAF9D1BFA2A72002F7BD1 /* PWDataReaderController.h */; settings = {ASSET_TAGS = (); }; };
+		E6EBAFAC1BFA2A72002F7BD1 /* PWDataReaderController.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EBAF9D1BFA2A72002F7BD1 /* PWDataReaderController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6EBAFAD1BFA2A72002F7BD1 /* PWDataReaderController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EBAF9E1BFA2A72002F7BD1 /* PWDataReaderController.m */; settings = {ASSET_TAGS = (); }; };
-		E6EBAFAE1BFA2A72002F7BD1 /* PWDataReaderDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EBAF9F1BFA2A72002F7BD1 /* PWDataReaderDelegate.h */; settings = {ASSET_TAGS = (); }; };
-		E6EBAFAF1BFA2A72002F7BD1 /* PWEtactCmd.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EBAFA01BFA2A72002F7BD1 /* PWEtactCmd.h */; settings = {ASSET_TAGS = (); }; };
+		E6EBAFAE1BFA2A72002F7BD1 /* PWDataReaderDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EBAF9F1BFA2A72002F7BD1 /* PWDataReaderDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6EBAFAF1BFA2A72002F7BD1 /* PWEtactCmd.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EBAFA01BFA2A72002F7BD1 /* PWEtactCmd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6EBAFB01BFA2A72002F7BD1 /* PWEtactCmd.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EBAFA11BFA2A72002F7BD1 /* PWEtactCmd.m */; settings = {ASSET_TAGS = (); }; };
-		E6EBAFB11BFA2A72002F7BD1 /* PWEtactCommands.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EBAFA21BFA2A72002F7BD1 /* PWEtactCommands.h */; settings = {ASSET_TAGS = (); }; };
+		E6EBAFB11BFA2A72002F7BD1 /* PWEtactCommands.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EBAFA21BFA2A72002F7BD1 /* PWEtactCommands.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6EBAFB21BFA2A72002F7BD1 /* PWEtactCommands.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EBAFA31BFA2A72002F7BD1 /* PWEtactCommands.m */; settings = {ASSET_TAGS = (); }; };
-		E6EBAFB31BFA2A72002F7BD1 /* PWEtactReader.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EBAFA41BFA2A72002F7BD1 /* PWEtactReader.h */; settings = {ASSET_TAGS = (); }; };
+		E6EBAFB31BFA2A72002F7BD1 /* PWEtactReader.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EBAFA41BFA2A72002F7BD1 /* PWEtactReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6EBAFB41BFA2A72002F7BD1 /* PWEtactReader.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EBAFA51BFA2A72002F7BD1 /* PWEtactReader.m */; settings = {ASSET_TAGS = (); }; };
 		E6EBAFB51BFA2A72002F7BD1 /* libRscMgrUniv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6EBAFA61BFA2A72002F7BD1 /* libRscMgrUniv.a */; settings = {ASSET_TAGS = (); }; };
-		E6EBAFB61BFA2A72002F7BD1 /* redparkSerial.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EBAFA71BFA2A72002F7BD1 /* redparkSerial.h */; settings = {ASSET_TAGS = (); }; };
-		E6EBAFB71BFA2A72002F7BD1 /* RscMgr.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EBAFA81BFA2A72002F7BD1 /* RscMgr.h */; settings = {ASSET_TAGS = (); }; };
+		E6EBAFB61BFA2A72002F7BD1 /* redparkSerial.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EBAFA71BFA2A72002F7BD1 /* redparkSerial.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6EBAFB71BFA2A72002F7BD1 /* RscMgr.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EBAFA81BFA2A72002F7BD1 /* RscMgr.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6EBAFBA1BFA2C19002F7BD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6EBAFB91BFA2C19002F7BD1 /* Foundation.framework */; };
 		E6EBAFC01BFA4A5A002F7BD1 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6EBAFBF1BFA4A5A002F7BD1 /* CocoaLumberjack.framework */; settings = {ASSET_TAGS = (); }; };
+		E6EBAFC21BFA4BBE002F7BD1 /* PulseWaveFramework.podspec in Resources */ = {isa = PBXBuildFile; fileRef = E6EBAFC11BFA4BBE002F7BD1 /* PulseWaveFramework.podspec */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		E6EBAFA81BFA2A72002F7BD1 /* RscMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RscMgr.h; sourceTree = "<group>"; };
 		E6EBAFB91BFA2C19002F7BD1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E6EBAFBF1BFA4A5A002F7BD1 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CocoaLumberjack.framework; sourceTree = "<group>"; };
+		E6EBAFC11BFA4BBE002F7BD1 /* PulseWaveFramework.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PulseWaveFramework.podspec; path = ../PulseWaveFramework.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 		E6EBAF861BFA2A53002F7BD1 = {
 			isa = PBXGroup;
 			children = (
+				E6EBAFC11BFA4BBE002F7BD1 /* PulseWaveFramework.podspec */,
 				E6EBAFB91BFA2C19002F7BD1 /* Foundation.framework */,
 				E6EBAF921BFA2A53002F7BD1 /* PulseWaveFramework */,
 				E6EBAF911BFA2A53002F7BD1 /* Products */,
@@ -195,6 +198,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6EBAFC21BFA4BBE002F7BD1 /* PulseWaveFramework.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,6 +379,7 @@
 				E6EBAF9A1BFA2A53002F7BD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

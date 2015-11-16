@@ -10,11 +10,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		+49wXgyj4+6syoB54dYA2oOpUhA=
+		2FUfD3Oc/A03igqhtrn9rCs8ENQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		95jOsO10xNnYsbRmIYvVXRXMHeY=
+		</data>
+		<key>PulseWaveFramework.podspec</key>
+		<data>
+		1cW3kEQrkksi2Dsw5zervSJ7ecs=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -26,6 +30,10 @@
 		<key>Modules/module.modulemap</key>
 		<data>
 		95jOsO10xNnYsbRmIYvVXRXMHeY=
+		</data>
+		<key>PulseWaveFramework.podspec</key>
+		<data>
+		1cW3kEQrkksi2Dsw5zervSJ7ecs=
 		</data>
 	</dict>
 	<key>rules</key>

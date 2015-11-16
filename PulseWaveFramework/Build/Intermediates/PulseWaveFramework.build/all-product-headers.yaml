@@ -4,28 +4,68 @@
   'roots': [
     {
       'type': 'directory',
-      'name': "/Users/nicolas.linard/Projects/ios/plusewaveframework/PulseWaveFramework/Build/Products/Release-iphoneos/PulseWaveFramework.framework/Headers",
+      'name': "/Users/nicolas.linard/Projects/ios/pulsewaveframework/PulseWaveFramework/Build/Products/Release-iphoneos/PulseWaveFramework.framework/Headers",
       'contents': [
         {
           'type': 'file',
+          'name': "PWByteUtils.h",
+          'external-contents': "/Users/nicolas.linard/Projects/ios/pulsewaveframework/PulseWaveFramework/PulseWaveFramework/PWByteUtils.h"
+        },
+        {
+          'type': 'file',
+          'name': "PWDataReaderController.h",
+          'external-contents': "/Users/nicolas.linard/Projects/ios/pulsewaveframework/PulseWaveFramework/PulseWaveFramework/PWDataReaderController.h"
+        },
+        {
+          'type': 'file',
+          'name': "PWDataReaderDelegate.h",
+          'external-contents': "/Users/nicolas.linard/Projects/ios/pulsewaveframework/PulseWaveFramework/PulseWaveFramework/PWDataReaderDelegate.h"
+        },
+        {
+          'type': 'file',
+          'name': "PWEtactCmd.h",
+          'external-contents': "/Users/nicolas.linard/Projects/ios/pulsewaveframework/PulseWaveFramework/PulseWaveFramework/PWEtactCmd.h"
+        },
+        {
+          'type': 'file',
+          'name': "PWEtactCommands.h",
+          'external-contents': "/Users/nicolas.linard/Projects/ios/pulsewaveframework/PulseWaveFramework/PulseWaveFramework/PWEtactCommands.h"
+        },
+        {
+          'type': 'file',
+          'name': "PWEtactReader.h",
+          'external-contents': "/Users/nicolas.linard/Projects/ios/pulsewaveframework/PulseWaveFramework/PulseWaveFramework/PWEtactReader.h"
+        },
+        {
+          'type': 'file',
           'name': "PulseWaveFramework-Swift.h",
-          'external-contents': "/Users/nicolas.linard/Projects/ios/plusewaveframework/PulseWaveFramework/Build/Products/Release-iphoneos/PulseWaveFramework.framework/Headers/PulseWaveFramework-Swift.h"
+          'external-contents': "/Users/nicolas.linard/Projects/ios/pulsewaveframework/PulseWaveFramework/Build/Products/Release-iphoneos/PulseWaveFramework.framework/Headers/PulseWaveFramework-Swift.h"
         },
         {
           'type': 'file',
           'name': "PulseWaveFramework.h",
-          'external-contents': "/Users/nicolas.linard/Projects/ios/plusewaveframework/PulseWaveFramework/PulseWaveFramework/PulseWaveFramework.h"
+          'external-contents': "/Users/nicolas.linard/Projects/ios/pulsewaveframework/PulseWaveFramework/PulseWaveFramework/PulseWaveFramework.h"
+        },
+        {
+          'type': 'file',
+          'name': "RscMgr.h",
+          'external-contents': "/Users/nicolas.linard/Projects/ios/pulsewaveframework/PulseWaveFramework/PulseWaveFramework/RscMgr.h"
+        },
+        {
+          'type': 'file',
+          'name': "redparkSerial.h",
+          'external-contents': "/Users/nicolas.linard/Projects/ios/pulsewaveframework/PulseWaveFramework/PulseWaveFramework/redparkSerial.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/nicolas.linard/Projects/ios/plusewaveframework/PulseWaveFramework/Build/Products/Release-iphoneos/PulseWaveFramework.framework/Modules",
+      'name': "/Users/nicolas.linard/Projects/ios/pulsewaveframework/PulseWaveFramework/Build/Products/Release-iphoneos/PulseWaveFramework.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/nicolas.linard/Projects/ios/plusewaveframework/PulseWaveFramework/Build/Intermediates/PulseWaveFramework.build/Release-iphoneos/PulseWaveFramework.build/module.modulemap"
+          'external-contents': "/Users/nicolas.linard/Projects/ios/pulsewaveframework/PulseWaveFramework/Build/Intermediates/PulseWaveFramework.build/Release-iphoneos/PulseWaveFramework.build/module.modulemap"
         }
       ]
     }
