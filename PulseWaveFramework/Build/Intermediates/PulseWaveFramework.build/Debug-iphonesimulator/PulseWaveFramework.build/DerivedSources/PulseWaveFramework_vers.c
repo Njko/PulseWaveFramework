@@ -1,0 +1,1 @@
+ const unsigned char PulseWaveFrameworkVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:PulseWaveFramework  PROJECT:PulseWaveFramework-1" "\n"; const double PulseWaveFrameworkVersionNumber __attribute__ ((used)) = (double)1.;

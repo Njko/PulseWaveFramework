@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                = "PulseWaveFramework"
-  s.version             = "0.1.1"
+  s.version             = "0.1.3"
   s.summary             = "A framework to gather data from Pulsewave Sensor using RedparkSerial Serial to Lightning cable."
   s.description         = <<-DESC
     This framework was created to facilitate the work with the RedparkSerial library and cables combined with the Pulsewave Sensor.
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.author              = { 'Nicolas LINARD' => 'nicolas.linard@valtech.fr' }
   s.source              = { :git => "https://github.com/Njko/PulseWaveFramework.git", :tag => s.version.to_s }
   s.requires_arc        = true
-  s.vendored_frameworks = 'PulseWaveFramework/Build/Products/Release-iphoneos/PulseWaveFramework.framework'
+  s.vendored_frameworks = 'PulseWaveFramework/Output/PulseWaveFramework-Release-iphoneuniversal/PulseWaveFramework.framework'
   s.platform            = :ios, '8.0'
   s.requires_arc        = true
   s.license      = { :type => 'Apache License, Version 2.0', :text => <<-LICENSE

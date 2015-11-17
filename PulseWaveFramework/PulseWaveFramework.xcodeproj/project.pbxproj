@@ -6,6 +6,20 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		E6CBCEE91BFB75C600D23D12 /* PulseWaveFramework-universal */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E6CBCEEA1BFB75C700D23D12 /* Build configuration list for PBXAggregateTarget "PulseWaveFramework-universal" */;
+			buildPhases = (
+				E6CBCEED1BFB75F600D23D12 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "PulseWaveFramework-universal";
+			productName = "PulseWaveFramework-universal";
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		E6EBAF941BFA2A53002F7BD1 /* PulseWaveFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EBAF931BFA2A53002F7BD1 /* PulseWaveFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6EBAFAA1BFA2A72002F7BD1 /* PWByteUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EBAF9B1BFA2A72002F7BD1 /* PWByteUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -171,6 +185,9 @@
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = MEDES;
 				TargetAttributes = {
+					E6CBCEE91BFB75C600D23D12 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
 					E6EBAF8F1BFA2A53002F7BD1 = {
 						CreatedOnToolsVersion = 7.0.1;
 					};
@@ -189,6 +206,7 @@
 			projectRoot = "";
 			targets = (
 				E6EBAF8F1BFA2A53002F7BD1 /* PulseWaveFramework */,
+				E6CBCEE91BFB75C600D23D12 /* PulseWaveFramework-universal */,
 			);
 		};
 /* End PBXProject section */
@@ -203,6 +221,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E6CBCEED1BFB75F600D23D12 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "######################\n# Options\n######################\n\nREVEAL_ARCHIVE_IN_FINDER=false\n\nFRAMEWORK_NAME=\"${PROJECT_NAME}\"\n\nSIMULATOR_LIBRARY_PATH=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${FRAMEWORK_NAME}.framework\"\n\nDEVICE_LIBRARY_PATH=\"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${FRAMEWORK_NAME}.framework\"\n\nUNIVERSAL_LIBRARY_DIR=\"${BUILD_DIR}/${CONFIGURATION}-iphoneuniversal\"\n\nFRAMEWORK=\"${UNIVERSAL_LIBRARY_DIR}/${FRAMEWORK_NAME}.framework\"\n\n\n######################\n# Build Frameworks\n######################\n\nxcodebuild -project ${PROJECT_NAME}.xcodeproj -scheme ${PROJECT_NAME} -sdk iphonesimulator -configuration ${CONFIGURATION} clean build CONFIGURATION_BUILD_DIR=${BUILD_DIR}/${CONFIGURATION}-iphonesimulator 2>&1\n\nxcodebuild -project ${PROJECT_NAME}.xcodeproj -scheme ${PROJECT_NAME} -sdk iphoneos -configuration ${CONFIGURATION} clean build CONFIGURATION_BUILD_DIR=${BUILD_DIR}/${CONFIGURATION}-iphoneos 2>&1\n\n######################\n# Create directory for universal\n######################\n\nrm -rf \"${UNIVERSAL_LIBRARY_DIR}\"\n\nmkdir \"${UNIVERSAL_LIBRARY_DIR}\"\n\nmkdir \"${FRAMEWORK}\"\n\n\n######################\n# Copy files Framework\n######################\n\ncp -r \"${DEVICE_LIBRARY_PATH}/.\" \"${FRAMEWORK}\"\n\n\n######################\n# Make an universal binary\n######################\n\nlipo \"${SIMULATOR_LIBRARY_PATH}/${FRAMEWORK_NAME}\" \"${DEVICE_LIBRARY_PATH}/${FRAMEWORK_NAME}\" -create -output \"${FRAMEWORK}/${FRAMEWORK_NAME}\" | echo\n\n######################\n# On Release, copy the result to release directory\n######################\nOUTPUT_DIR=\"${PROJECT_DIR}/Output/${FRAMEWORK_NAME}-${CONFIGURATION}-iphoneuniversal/\"\n\nrm -rf \"$OUTPUT_DIR\"\nmkdir -p \"$OUTPUT_DIR\"\n\ncp -r \"${FRAMEWORK}\" \"$OUTPUT_DIR\"\n\nif [ ${REVEAL_ARCHIVE_IN_FINDER} = true ]; then\nopen \"${OUTPUT_DIR}/\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E6EBAF8B1BFA2A53002F7BD1 /* Sources */ = {
@@ -220,6 +254,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		E6CBCEEB1BFB75C700D23D12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64 i386";
+			};
+			name = Debug;
+		};
+		E6CBCEEC1BFB75C700D23D12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64 i386";
+			};
+			name = Release;
+		};
 		E6EBAF961BFA2A53002F7BD1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -259,7 +309,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -300,6 +350,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -328,9 +379,11 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/PulseWaveFramework",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = fr.medes.PulseWaveFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64 i386";
 			};
 			name = Debug;
 		};
@@ -354,15 +407,25 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/PulseWaveFramework",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = fr.medes.PulseWaveFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64 i386";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		E6CBCEEA1BFB75C700D23D12 /* Build configuration list for PBXAggregateTarget "PulseWaveFramework-universal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6CBCEEB1BFB75C700D23D12 /* Debug */,
+				E6CBCEEC1BFB75C700D23D12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		E6EBAF8A1BFA2A53002F7BD1 /* Build configuration list for PBXProject "PulseWaveFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

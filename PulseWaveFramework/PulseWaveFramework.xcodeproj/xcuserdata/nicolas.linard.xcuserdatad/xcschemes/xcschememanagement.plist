@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>PulseWaveFramework-universal.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>PulseWaveFramework.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +17,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>E6CBCEE91BFB75C600D23D12</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>E6EBAF8F1BFA2A53002F7BD1</key>
 		<dict>
 			<key>primary</key>
