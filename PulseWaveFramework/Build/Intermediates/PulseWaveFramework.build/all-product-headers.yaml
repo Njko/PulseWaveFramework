@@ -23,6 +23,21 @@
         },
         {
           'type': 'file',
+          'name': "PWMiscUtils.h",
+          'external-contents': "/Users/nicolas.linard/Projects/ios/pulsewaveframework/PulseWaveFramework/PulseWaveFramework/PWMiscUtils.h"
+        },
+        {
+          'type': 'file',
+          'name': "PWReader.h",
+          'external-contents': "/Users/nicolas.linard/Projects/ios/pulsewaveframework/PulseWaveFramework/PulseWaveFramework/PWReader.h"
+        },
+        {
+          'type': 'file',
+          'name': "PWReaderDelegate.h",
+          'external-contents': "/Users/nicolas.linard/Projects/ios/pulsewaveframework/PulseWaveFramework/PulseWaveFramework/PWReaderDelegate.h"
+        },
+        {
+          'type': 'file',
           'name': "PulseWaveFramework-Swift.h",
           'external-contents': "/Users/nicolas.linard/Projects/ios/pulsewaveframework/PulseWaveFramework/Build/Products/Release-iphoneos/PulseWaveFramework.framework/Headers/PulseWaveFramework-Swift.h"
         },

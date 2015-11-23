@@ -21,11 +21,11 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		E617C4171C0360F500626324 /* PWReader.h in Headers */ = {isa = PBXBuildFile; fileRef = E617C4151C0360F500626324 /* PWReader.h */; settings = {ASSET_TAGS = (); }; };
+		E617C4171C0360F500626324 /* PWReader.h in Headers */ = {isa = PBXBuildFile; fileRef = E617C4151C0360F500626324 /* PWReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E617C4181C0360F500626324 /* PWReader.m in Sources */ = {isa = PBXBuildFile; fileRef = E617C4161C0360F500626324 /* PWReader.m */; settings = {ASSET_TAGS = (); }; };
-		E617C41B1C03616100626324 /* PWMiscUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = E617C4191C03616100626324 /* PWMiscUtils.h */; settings = {ASSET_TAGS = (); }; };
+		E617C41B1C03616100626324 /* PWMiscUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = E617C4191C03616100626324 /* PWMiscUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E617C41C1C03616100626324 /* PWMiscUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E617C41A1C03616100626324 /* PWMiscUtils.m */; settings = {ASSET_TAGS = (); }; };
-		E65A673F1C03648700111F07 /* PWReaderDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = E65A673E1C03648700111F07 /* PWReaderDelegate.h */; settings = {ASSET_TAGS = (); }; };
+		E65A673F1C03648700111F07 /* PWReaderDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = E65A673E1C03648700111F07 /* PWReaderDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6EBAF941BFA2A53002F7BD1 /* PulseWaveFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EBAF931BFA2A53002F7BD1 /* PulseWaveFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6EBAFAA1BFA2A72002F7BD1 /* PWByteUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EBAF9B1BFA2A72002F7BD1 /* PWByteUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6EBAFAB1BFA2A72002F7BD1 /* PWByteUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EBAF9C1BFA2A72002F7BD1 /* PWByteUtils.m */; settings = {ASSET_TAGS = (); }; };
@@ -165,13 +165,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6EBAF941BFA2A53002F7BD1 /* PulseWaveFramework.h in Headers */,
-				E617C41B1C03616100626324 /* PWMiscUtils.h in Headers */,
 				E6EBAFAC1BFA2A72002F7BD1 /* PWDataReaderController.h in Headers */,
 				E6EBAFAA1BFA2A72002F7BD1 /* PWByteUtils.h in Headers */,
+				E617C41B1C03616100626324 /* PWMiscUtils.h in Headers */,
 				E617C4171C0360F500626324 /* PWReader.h in Headers */,
+				E65A673F1C03648700111F07 /* PWReaderDelegate.h in Headers */,
 				E6EBAFAE1BFA2A72002F7BD1 /* PWDataReaderDelegate.h in Headers */,
 				E6EBAFB61BFA2A72002F7BD1 /* redparkSerial.h in Headers */,
-				E65A673F1C03648700111F07 /* PWReaderDelegate.h in Headers */,
 				E6EBAFB71BFA2A72002F7BD1 /* RscMgr.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
