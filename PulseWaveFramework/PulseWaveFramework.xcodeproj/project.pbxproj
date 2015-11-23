@@ -21,18 +21,17 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		E617C4171C0360F500626324 /* PWReader.h in Headers */ = {isa = PBXBuildFile; fileRef = E617C4151C0360F500626324 /* PWReader.h */; settings = {ASSET_TAGS = (); }; };
+		E617C4181C0360F500626324 /* PWReader.m in Sources */ = {isa = PBXBuildFile; fileRef = E617C4161C0360F500626324 /* PWReader.m */; settings = {ASSET_TAGS = (); }; };
+		E617C41B1C03616100626324 /* PWMiscUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = E617C4191C03616100626324 /* PWMiscUtils.h */; settings = {ASSET_TAGS = (); }; };
+		E617C41C1C03616100626324 /* PWMiscUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E617C41A1C03616100626324 /* PWMiscUtils.m */; settings = {ASSET_TAGS = (); }; };
+		E65A673F1C03648700111F07 /* PWReaderDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = E65A673E1C03648700111F07 /* PWReaderDelegate.h */; settings = {ASSET_TAGS = (); }; };
 		E6EBAF941BFA2A53002F7BD1 /* PulseWaveFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EBAF931BFA2A53002F7BD1 /* PulseWaveFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6EBAFAA1BFA2A72002F7BD1 /* PWByteUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EBAF9B1BFA2A72002F7BD1 /* PWByteUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6EBAFAB1BFA2A72002F7BD1 /* PWByteUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EBAF9C1BFA2A72002F7BD1 /* PWByteUtils.m */; settings = {ASSET_TAGS = (); }; };
 		E6EBAFAC1BFA2A72002F7BD1 /* PWDataReaderController.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EBAF9D1BFA2A72002F7BD1 /* PWDataReaderController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6EBAFAD1BFA2A72002F7BD1 /* PWDataReaderController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EBAF9E1BFA2A72002F7BD1 /* PWDataReaderController.m */; settings = {ASSET_TAGS = (); }; };
 		E6EBAFAE1BFA2A72002F7BD1 /* PWDataReaderDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EBAF9F1BFA2A72002F7BD1 /* PWDataReaderDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E6EBAFAF1BFA2A72002F7BD1 /* PWEtactCmd.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EBAFA01BFA2A72002F7BD1 /* PWEtactCmd.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E6EBAFB01BFA2A72002F7BD1 /* PWEtactCmd.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EBAFA11BFA2A72002F7BD1 /* PWEtactCmd.m */; settings = {ASSET_TAGS = (); }; };
-		E6EBAFB11BFA2A72002F7BD1 /* PWEtactCommands.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EBAFA21BFA2A72002F7BD1 /* PWEtactCommands.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E6EBAFB21BFA2A72002F7BD1 /* PWEtactCommands.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EBAFA31BFA2A72002F7BD1 /* PWEtactCommands.m */; settings = {ASSET_TAGS = (); }; };
-		E6EBAFB31BFA2A72002F7BD1 /* PWEtactReader.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EBAFA41BFA2A72002F7BD1 /* PWEtactReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E6EBAFB41BFA2A72002F7BD1 /* PWEtactReader.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EBAFA51BFA2A72002F7BD1 /* PWEtactReader.m */; settings = {ASSET_TAGS = (); }; };
 		E6EBAFB51BFA2A72002F7BD1 /* libRscMgrUniv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6EBAFA61BFA2A72002F7BD1 /* libRscMgrUniv.a */; settings = {ASSET_TAGS = (); }; };
 		E6EBAFB61BFA2A72002F7BD1 /* redparkSerial.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EBAFA71BFA2A72002F7BD1 /* redparkSerial.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6EBAFB71BFA2A72002F7BD1 /* RscMgr.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EBAFA81BFA2A72002F7BD1 /* RscMgr.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -42,6 +41,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E617C4151C0360F500626324 /* PWReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWReader.h; sourceTree = "<group>"; };
+		E617C4161C0360F500626324 /* PWReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWReader.m; sourceTree = "<group>"; };
+		E617C4191C03616100626324 /* PWMiscUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWMiscUtils.h; sourceTree = "<group>"; };
+		E617C41A1C03616100626324 /* PWMiscUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWMiscUtils.m; sourceTree = "<group>"; };
+		E65A673E1C03648700111F07 /* PWReaderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWReaderDelegate.h; sourceTree = "<group>"; };
 		E6EBAF901BFA2A53002F7BD1 /* PulseWaveFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PulseWaveFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6EBAF931BFA2A53002F7BD1 /* PulseWaveFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PulseWaveFramework.h; sourceTree = "<group>"; };
 		E6EBAF951BFA2A53002F7BD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,12 +54,6 @@
 		E6EBAF9D1BFA2A72002F7BD1 /* PWDataReaderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWDataReaderController.h; sourceTree = "<group>"; };
 		E6EBAF9E1BFA2A72002F7BD1 /* PWDataReaderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWDataReaderController.m; sourceTree = "<group>"; };
 		E6EBAF9F1BFA2A72002F7BD1 /* PWDataReaderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWDataReaderDelegate.h; sourceTree = "<group>"; };
-		E6EBAFA01BFA2A72002F7BD1 /* PWEtactCmd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWEtactCmd.h; sourceTree = "<group>"; };
-		E6EBAFA11BFA2A72002F7BD1 /* PWEtactCmd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWEtactCmd.m; sourceTree = "<group>"; };
-		E6EBAFA21BFA2A72002F7BD1 /* PWEtactCommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWEtactCommands.h; sourceTree = "<group>"; };
-		E6EBAFA31BFA2A72002F7BD1 /* PWEtactCommands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWEtactCommands.m; sourceTree = "<group>"; };
-		E6EBAFA41BFA2A72002F7BD1 /* PWEtactReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWEtactReader.h; sourceTree = "<group>"; };
-		E6EBAFA51BFA2A72002F7BD1 /* PWEtactReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWEtactReader.m; sourceTree = "<group>"; };
 		E6EBAFA61BFA2A72002F7BD1 /* libRscMgrUniv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libRscMgrUniv.a; sourceTree = "<group>"; };
 		E6EBAFA71BFA2A72002F7BD1 /* redparkSerial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = redparkSerial.h; sourceTree = "<group>"; };
 		E6EBAFA81BFA2A72002F7BD1 /* RscMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RscMgr.h; sourceTree = "<group>"; };
@@ -78,6 +76,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E65A67401C03649200111F07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E6EBAF9D1BFA2A72002F7BD1 /* PWDataReaderController.h */,
+				E6EBAF9E1BFA2A72002F7BD1 /* PWDataReaderController.m */,
+				E617C4151C0360F500626324 /* PWReader.h */,
+				E617C4161C0360F500626324 /* PWReader.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		E65A67411C03649800111F07 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				E6EBAF9F1BFA2A72002F7BD1 /* PWDataReaderDelegate.h */,
+				E65A673E1C03648700111F07 /* PWReaderDelegate.h */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		E65A67421C0364B000111F07 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E6EBAF9B1BFA2A72002F7BD1 /* PWByteUtils.h */,
+				E6EBAF9C1BFA2A72002F7BD1 /* PWByteUtils.m */,
+				E617C4191C03616100626324 /* PWMiscUtils.h */,
+				E617C41A1C03616100626324 /* PWMiscUtils.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
 		E6EBAF861BFA2A53002F7BD1 = {
 			isa = PBXGroup;
 			children = (
@@ -99,21 +128,11 @@
 		E6EBAF921BFA2A53002F7BD1 /* PulseWaveFramework */ = {
 			isa = PBXGroup;
 			children = (
+				E65A67421C0364B000111F07 /* Utils */,
+				E65A67411C03649800111F07 /* Delegates */,
+				E65A67401C03649200111F07 /* Classes */,
 				E6EBAFBE1BFA4A48002F7BD1 /* Frameworks */,
 				E6EBAFBD1BFA4A40002F7BD1 /* Libs */,
-				E6EBAF9B1BFA2A72002F7BD1 /* PWByteUtils.h */,
-				E6EBAF9C1BFA2A72002F7BD1 /* PWByteUtils.m */,
-				E6EBAF9D1BFA2A72002F7BD1 /* PWDataReaderController.h */,
-				E6EBAF9E1BFA2A72002F7BD1 /* PWDataReaderController.m */,
-				E6EBAF9F1BFA2A72002F7BD1 /* PWDataReaderDelegate.h */,
-				E6EBAFA01BFA2A72002F7BD1 /* PWEtactCmd.h */,
-				E6EBAFA11BFA2A72002F7BD1 /* PWEtactCmd.m */,
-				E6EBAFA21BFA2A72002F7BD1 /* PWEtactCommands.h */,
-				E6EBAFA31BFA2A72002F7BD1 /* PWEtactCommands.m */,
-				E6EBAFA41BFA2A72002F7BD1 /* PWEtactReader.h */,
-				E6EBAFA51BFA2A72002F7BD1 /* PWEtactReader.m */,
-				E6EBAFA71BFA2A72002F7BD1 /* redparkSerial.h */,
-				E6EBAFA81BFA2A72002F7BD1 /* RscMgr.h */,
 				E6EBAF931BFA2A53002F7BD1 /* PulseWaveFramework.h */,
 				E6EBAF951BFA2A53002F7BD1 /* Info.plist */,
 			);
@@ -124,6 +143,8 @@
 			isa = PBXGroup;
 			children = (
 				E6EBAFA61BFA2A72002F7BD1 /* libRscMgrUniv.a */,
+				E6EBAFA71BFA2A72002F7BD1 /* redparkSerial.h */,
+				E6EBAFA81BFA2A72002F7BD1 /* RscMgr.h */,
 			);
 			name = Libs;
 			sourceTree = "<group>";
@@ -144,13 +165,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6EBAF941BFA2A53002F7BD1 /* PulseWaveFramework.h in Headers */,
-				E6EBAFB31BFA2A72002F7BD1 /* PWEtactReader.h in Headers */,
+				E617C41B1C03616100626324 /* PWMiscUtils.h in Headers */,
 				E6EBAFAC1BFA2A72002F7BD1 /* PWDataReaderController.h in Headers */,
 				E6EBAFAA1BFA2A72002F7BD1 /* PWByteUtils.h in Headers */,
-				E6EBAFB11BFA2A72002F7BD1 /* PWEtactCommands.h in Headers */,
+				E617C4171C0360F500626324 /* PWReader.h in Headers */,
 				E6EBAFAE1BFA2A72002F7BD1 /* PWDataReaderDelegate.h in Headers */,
 				E6EBAFB61BFA2A72002F7BD1 /* redparkSerial.h in Headers */,
-				E6EBAFAF1BFA2A72002F7BD1 /* PWEtactCmd.h in Headers */,
+				E65A673F1C03648700111F07 /* PWReaderDelegate.h in Headers */,
 				E6EBAFB71BFA2A72002F7BD1 /* RscMgr.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -243,11 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6EBAFB01BFA2A72002F7BD1 /* PWEtactCmd.m in Sources */,
+				E617C4181C0360F500626324 /* PWReader.m in Sources */,
 				E6EBAFAB1BFA2A72002F7BD1 /* PWByteUtils.m in Sources */,
-				E6EBAFB21BFA2A72002F7BD1 /* PWEtactCommands.m in Sources */,
 				E6EBAFAD1BFA2A72002F7BD1 /* PWDataReaderController.m in Sources */,
-				E6EBAFB41BFA2A72002F7BD1 /* PWEtactReader.m in Sources */,
+				E617C41C1C03616100626324 /* PWMiscUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +445,7 @@
 				E6CBCEEC1BFB75C700D23D12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E6EBAF8A1BFA2A53002F7BD1 /* Build configuration list for PBXProject "PulseWaveFramework" */ = {
 			isa = XCConfigurationList;

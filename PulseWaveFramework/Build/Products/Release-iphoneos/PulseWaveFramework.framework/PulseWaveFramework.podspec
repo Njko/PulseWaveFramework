@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                = "PulseWaveFramework"
-  s.version             = "0.1.3"
+  s.version             = "1.0.0"
   s.summary             = "A framework to gather data from Pulsewave Sensor using RedparkSerial Serial to Lightning cable."
   s.description         = <<-DESC
     This framework was created to facilitate the work with the RedparkSerial library and cables combined with the Pulsewave Sensor.
