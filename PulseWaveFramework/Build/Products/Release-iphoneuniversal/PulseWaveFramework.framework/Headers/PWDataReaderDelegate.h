@@ -9,20 +9,10 @@
 #ifndef PWDataReaderDelegate_h
 #define PWDataReaderDelegate_h
 
-typedef NS_ENUM(NSUInteger, PWReaderStatus) {
-    Idle,
-    Check,
-    Ok,
-    Error
-};
-
 @protocol PWDataReaderDelegate <NSObject>
 
-- (void) isDeviceConnected:(BOOL)isConnected;
-- (void) deviceStatusChanged:(PWReaderStatus)status;
-- (void) updateHardwareVersion:(NSNumber *)versionNumber;
-- (void) updateSoftwareVersion: (NSNumber *)versionNumber;
-- (void) updateBartVersion:(NSNumber *)versionNumber;
+- (void) didChangeConnectionStatus:(BOOL)isConnected;
+- (void) didReceiveValue:(NSString *)value;
 
 @end
 

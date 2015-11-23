@@ -23,21 +23,6 @@
         },
         {
           'type': 'file',
-          'name': "PWEtactCmd.h",
-          'external-contents': "/Users/nicolas.linard/Projects/ios/pulsewaveframework/PulseWaveFramework/PulseWaveFramework/PWEtactCmd.h"
-        },
-        {
-          'type': 'file',
-          'name': "PWEtactCommands.h",
-          'external-contents': "/Users/nicolas.linard/Projects/ios/pulsewaveframework/PulseWaveFramework/PulseWaveFramework/PWEtactCommands.h"
-        },
-        {
-          'type': 'file',
-          'name': "PWEtactReader.h",
-          'external-contents': "/Users/nicolas.linard/Projects/ios/pulsewaveframework/PulseWaveFramework/PulseWaveFramework/PWEtactReader.h"
-        },
-        {
-          'type': 'file',
           'name': "PulseWaveFramework-Swift.h",
           'external-contents': "/Users/nicolas.linard/Projects/ios/pulsewaveframework/PulseWaveFramework/Build/Products/Release-iphoneos/PulseWaveFramework.framework/Headers/PulseWaveFramework-Swift.h"
         },

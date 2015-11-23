@@ -17,7 +17,6 @@ dependencies: \
   /Users/nicolas.linard/Projects/ios/pulsewaveframework/PulseWaveFramework/PulseWaveFramework/PWDataReaderController.h \
   /Users/nicolas.linard/Projects/ios/pulsewaveframework/PulseWaveFramework/PulseWaveFramework/RscMgr.h \
   /Users/nicolas.linard/Projects/ios/pulsewaveframework/PulseWaveFramework/PulseWaveFramework/redparkSerial.h \
-  /Users/nicolas.linard/Projects/ios/pulsewaveframework/PulseWaveFramework/PulseWaveFramework/PWEtactReader.h \
   /Users/nicolas.linard/Projects/ios/pulsewaveframework/PulseWaveFramework/PulseWaveFramework/PWDataReaderDelegate.h \
-  /Users/nicolas.linard/Projects/ios/pulsewaveframework/PulseWaveFramework/PulseWaveFramework/PWEtactCommands.h \
-  /Users/nicolas.linard/Projects/ios/pulsewaveframework/PulseWaveFramework/PulseWaveFramework/PWEtactCmd.h
+  /Users/nicolas.linard/Projects/ios/pulsewaveframework/PulseWaveFramework/PulseWaveFramework/PWReaderDelegate.h \
+  /Users/nicolas.linard/Projects/ios/pulsewaveframework/PulseWaveFramework/PulseWaveFramework/PWReader.h

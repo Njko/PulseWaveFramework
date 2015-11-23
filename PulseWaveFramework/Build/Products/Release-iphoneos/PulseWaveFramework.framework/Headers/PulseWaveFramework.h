@@ -24,3 +24,5 @@ FOUNDATION_EXPORT const unsigned char PulseWaveFrameworkVersionString[];
 #import <PulseWaveFramework/PwEtactCmd.h>
 #import <PulseWaveFramework/PWEtactCommands.h>
 #import <PulseWaveFramework/PWEtactReader.h>
+#import <PulseWaveFramework/PWReader.h>
+#import <PulseWaveFramework/PWReaderDelegate.h>

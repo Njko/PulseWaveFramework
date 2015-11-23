@@ -10,27 +10,15 @@
 		</data>
 		<key>Headers/PWDataReaderController.h</key>
 		<data>
-		/laZhq1GjLhF2NtcOv2e1V7U2mg=
+		9DmG5wHrouWh58sgqZA2xAuztkQ=
 		</data>
 		<key>Headers/PWDataReaderDelegate.h</key>
 		<data>
-		acMdrbAlvVA3vVwk5102JG65jF0=
-		</data>
-		<key>Headers/PWEtactCmd.h</key>
-		<data>
-		ollJGjVtULlS0LdYErigvmvqv1Q=
-		</data>
-		<key>Headers/PWEtactCommands.h</key>
-		<data>
-		9xRxoOb39w4QIurilqi8ow9L9UY=
-		</data>
-		<key>Headers/PWEtactReader.h</key>
-		<data>
-		JlsCjxQ2QxolGgZ0CpiXTG/WzWo=
+		T+O8kFG1fk2Mqf3HfMmitX5TGJ4=
 		</data>
 		<key>Headers/PulseWaveFramework.h</key>
 		<data>
-		6jwhkVh4zdLElINcqi+n/9QEO60=
+		YKtz5O6L/WZvPsEGHIJ4AGyGoes=
 		</data>
 		<key>Headers/RscMgr.h</key>
 		<data>
@@ -42,7 +30,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		2FUfD3Oc/A03igqhtrn9rCs8ENQ=
+		opVl3aT6+Fjmy0Y2cB73f4X0q/s=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -50,7 +38,7 @@
 		</data>
 		<key>PulseWaveFramework.podspec</key>
 		<data>
-		Z3DkRfYXrs1Nhi6xytN0IdyO/SI=
+		TNSnnAp2pi/om0cXh8G1ZmnBuNw=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -61,27 +49,15 @@
 		</data>
 		<key>Headers/PWDataReaderController.h</key>
 		<data>
-		/laZhq1GjLhF2NtcOv2e1V7U2mg=
+		9DmG5wHrouWh58sgqZA2xAuztkQ=
 		</data>
 		<key>Headers/PWDataReaderDelegate.h</key>
 		<data>
-		acMdrbAlvVA3vVwk5102JG65jF0=
-		</data>
-		<key>Headers/PWEtactCmd.h</key>
-		<data>
-		ollJGjVtULlS0LdYErigvmvqv1Q=
-		</data>
-		<key>Headers/PWEtactCommands.h</key>
-		<data>
-		9xRxoOb39w4QIurilqi8ow9L9UY=
-		</data>
-		<key>Headers/PWEtactReader.h</key>
-		<data>
-		JlsCjxQ2QxolGgZ0CpiXTG/WzWo=
+		T+O8kFG1fk2Mqf3HfMmitX5TGJ4=
 		</data>
 		<key>Headers/PulseWaveFramework.h</key>
 		<data>
-		6jwhkVh4zdLElINcqi+n/9QEO60=
+		YKtz5O6L/WZvPsEGHIJ4AGyGoes=
 		</data>
 		<key>Headers/RscMgr.h</key>
 		<data>
@@ -97,7 +73,7 @@
 		</data>
 		<key>PulseWaveFramework.podspec</key>
 		<data>
-		Z3DkRfYXrs1Nhi6xytN0IdyO/SI=
+		TNSnnAp2pi/om0cXh8G1ZmnBuNw=
 		</data>
 	</dict>
 	<key>rules</key>

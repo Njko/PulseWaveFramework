@@ -8,13 +8,14 @@
 
 #import <Foundation/Foundation.h>
 #import "RscMgr.h"
-#import "PWEtactReader.h"
 #import "PWDataReaderDelegate.h"
+#import "PWReaderDelegate.h"
 
-@interface PWDataReaderController : NSObject <RscMgrDelegate, PWEtactReaderDelegate>
+@interface PWDataReaderController : NSObject <RscMgrDelegate, PWReaderDelegate>
 
 @property (nonatomic, strong) id<PWDataReaderDelegate> delegate;
 
--(void)resetAction;
--(void)testAction;
+-(BOOL)isDeviceConnected;
+-(void)startToAcquire;
+-(void)stopToAcquire;
 @end
