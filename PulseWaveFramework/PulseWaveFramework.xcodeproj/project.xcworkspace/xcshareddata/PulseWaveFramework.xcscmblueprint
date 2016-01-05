@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "C5038162B1A1785F410FC14BC09D5026C9C58F23",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0A49BFB10D6DA80CEEA02A24C7762D64919E4DC0" : 0,
+    "C5038162B1A1785F410FC14BC09D5026C9C58F23" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3B085816-9D0E-4373-899C-B46C18ED5E37",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0A49BFB10D6DA80CEEA02A24C7762D64919E4DC0" : "",
+    "C5038162B1A1785F410FC14BC09D5026C9C58F23" : "pulsewaveframework\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "PulseWaveFramework",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "PulseWaveFramework\/PulseWaveFramework.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Njko\/ETactFramework.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0A49BFB10D6DA80CEEA02A24C7762D64919E4DC0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Njko\/PulseWaveFramework.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C5038162B1A1785F410FC14BC09D5026C9C58F23"
+    }
+  ]
+}

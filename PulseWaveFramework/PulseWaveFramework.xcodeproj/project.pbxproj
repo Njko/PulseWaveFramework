@@ -22,22 +22,22 @@
 
 /* Begin PBXBuildFile section */
 		E617C4171C0360F500626324 /* PWReader.h in Headers */ = {isa = PBXBuildFile; fileRef = E617C4151C0360F500626324 /* PWReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E617C4181C0360F500626324 /* PWReader.m in Sources */ = {isa = PBXBuildFile; fileRef = E617C4161C0360F500626324 /* PWReader.m */; settings = {ASSET_TAGS = (); }; };
+		E617C4181C0360F500626324 /* PWReader.m in Sources */ = {isa = PBXBuildFile; fileRef = E617C4161C0360F500626324 /* PWReader.m */; };
 		E617C41B1C03616100626324 /* PWMiscUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = E617C4191C03616100626324 /* PWMiscUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E617C41C1C03616100626324 /* PWMiscUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E617C41A1C03616100626324 /* PWMiscUtils.m */; settings = {ASSET_TAGS = (); }; };
+		E617C41C1C03616100626324 /* PWMiscUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E617C41A1C03616100626324 /* PWMiscUtils.m */; };
 		E65A673F1C03648700111F07 /* PWReaderDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = E65A673E1C03648700111F07 /* PWReaderDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6EBAF941BFA2A53002F7BD1 /* PulseWaveFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EBAF931BFA2A53002F7BD1 /* PulseWaveFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6EBAFAA1BFA2A72002F7BD1 /* PWByteUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EBAF9B1BFA2A72002F7BD1 /* PWByteUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E6EBAFAB1BFA2A72002F7BD1 /* PWByteUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EBAF9C1BFA2A72002F7BD1 /* PWByteUtils.m */; settings = {ASSET_TAGS = (); }; };
+		E6EBAFAB1BFA2A72002F7BD1 /* PWByteUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EBAF9C1BFA2A72002F7BD1 /* PWByteUtils.m */; };
 		E6EBAFAC1BFA2A72002F7BD1 /* PWDataReaderController.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EBAF9D1BFA2A72002F7BD1 /* PWDataReaderController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E6EBAFAD1BFA2A72002F7BD1 /* PWDataReaderController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EBAF9E1BFA2A72002F7BD1 /* PWDataReaderController.m */; settings = {ASSET_TAGS = (); }; };
+		E6EBAFAD1BFA2A72002F7BD1 /* PWDataReaderController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EBAF9E1BFA2A72002F7BD1 /* PWDataReaderController.m */; };
 		E6EBAFAE1BFA2A72002F7BD1 /* PWDataReaderDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EBAF9F1BFA2A72002F7BD1 /* PWDataReaderDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E6EBAFB51BFA2A72002F7BD1 /* libRscMgrUniv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6EBAFA61BFA2A72002F7BD1 /* libRscMgrUniv.a */; settings = {ASSET_TAGS = (); }; };
+		E6EBAFB51BFA2A72002F7BD1 /* libRscMgrUniv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6EBAFA61BFA2A72002F7BD1 /* libRscMgrUniv.a */; };
 		E6EBAFB61BFA2A72002F7BD1 /* redparkSerial.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EBAFA71BFA2A72002F7BD1 /* redparkSerial.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6EBAFB71BFA2A72002F7BD1 /* RscMgr.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EBAFA81BFA2A72002F7BD1 /* RscMgr.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6EBAFBA1BFA2C19002F7BD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6EBAFB91BFA2C19002F7BD1 /* Foundation.framework */; };
-		E6EBAFC01BFA4A5A002F7BD1 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6EBAFBF1BFA4A5A002F7BD1 /* CocoaLumberjack.framework */; settings = {ASSET_TAGS = (); }; };
-		E6EBAFC21BFA4BBE002F7BD1 /* PulseWaveFramework.podspec in Resources */ = {isa = PBXBuildFile; fileRef = E6EBAFC11BFA4BBE002F7BD1 /* PulseWaveFramework.podspec */; settings = {ASSET_TAGS = (); }; };
+		E6EBAFC01BFA4A5A002F7BD1 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6EBAFBF1BFA4A5A002F7BD1 /* CocoaLumberjack.framework */; };
+		E6EBAFC21BFA4BBE002F7BD1 /* PulseWaveFramework.podspec in Resources */ = {isa = PBXBuildFile; fileRef = E6EBAFC11BFA4BBE002F7BD1 /* PulseWaveFramework.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -255,7 +255,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "######################\n# Options\n######################\n\nREVEAL_ARCHIVE_IN_FINDER=false\n\nFRAMEWORK_NAME=\"${PROJECT_NAME}\"\n\nSIMULATOR_LIBRARY_PATH=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${FRAMEWORK_NAME}.framework\"\n\nDEVICE_LIBRARY_PATH=\"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${FRAMEWORK_NAME}.framework\"\n\nUNIVERSAL_LIBRARY_DIR=\"${BUILD_DIR}/${CONFIGURATION}-iphoneuniversal\"\n\nFRAMEWORK=\"${UNIVERSAL_LIBRARY_DIR}/${FRAMEWORK_NAME}.framework\"\n\n\n######################\n# Build Frameworks\n######################\n\nxcodebuild -project ${PROJECT_NAME}.xcodeproj -scheme ${PROJECT_NAME} -sdk iphonesimulator -configuration ${CONFIGURATION} clean build CONFIGURATION_BUILD_DIR=${BUILD_DIR}/${CONFIGURATION}-iphonesimulator 2>&1\n\nxcodebuild -project ${PROJECT_NAME}.xcodeproj -scheme ${PROJECT_NAME} -sdk iphoneos -configuration ${CONFIGURATION} clean build CONFIGURATION_BUILD_DIR=${BUILD_DIR}/${CONFIGURATION}-iphoneos 2>&1\n\n######################\n# Create directory for universal\n######################\n\nrm -rf \"${UNIVERSAL_LIBRARY_DIR}\"\n\nmkdir \"${UNIVERSAL_LIBRARY_DIR}\"\n\nmkdir \"${FRAMEWORK}\"\n\n\n######################\n# Copy files Framework\n######################\n\ncp -r \"${DEVICE_LIBRARY_PATH}/.\" \"${FRAMEWORK}\"\n\n\n######################\n# Make an universal binary\n######################\n\nlipo \"${SIMULATOR_LIBRARY_PATH}/${FRAMEWORK_NAME}\" \"${DEVICE_LIBRARY_PATH}/${FRAMEWORK_NAME}\" -create -output \"${FRAMEWORK}/${FRAMEWORK_NAME}\" | echo\n\n######################\n# On Release, copy the result to release directory\n######################\nOUTPUT_DIR=\"${PROJECT_DIR}/Output/${FRAMEWORK_NAME}-${CONFIGURATION}-iphoneuniversal/\"\n\nrm -rf \"$OUTPUT_DIR\"\nmkdir -p \"$OUTPUT_DIR\"\n\ncp -r \"${FRAMEWORK}\" \"$OUTPUT_DIR\"\n\nif [ ${REVEAL_ARCHIVE_IN_FINDER} = true ]; then\nopen \"${OUTPUT_DIR}/\"\nfi";
+			shellScript = "######################\n# Options\n######################\n\nREVEAL_ARCHIVE_IN_FINDER=false\n\nFRAMEWORK_NAME=\"${PROJECT_NAME}\"\n\nSIMULATOR_LIBRARY_PATH=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${FRAMEWORK_NAME}.framework\"\n\nDEVICE_LIBRARY_PATH=\"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${FRAMEWORK_NAME}.framework\"\n\nUNIVERSAL_LIBRARY_DIR=\"${BUILD_DIR}/${CONFIGURATION}-iphoneuniversal\"\n\nFRAMEWORK=\"${UNIVERSAL_LIBRARY_DIR}/${FRAMEWORK_NAME}.framework\"\n\n\n######################\n# Build Frameworks\n######################\n\nxcodebuild -project ${PROJECT_NAME}.xcodeproj -scheme ${PROJECT_NAME} -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPad' -configuration ${CONFIGURATION} clean build CONFIGURATION_BUILD_DIR=${BUILD_DIR}/${CONFIGURATION}-iphonesimulator 2>&1\n\nxcodebuild -project ${PROJECT_NAME}.xcodeproj -scheme ${PROJECT_NAME} -sdk iphoneos -configuration ${CONFIGURATION} clean build CONFIGURATION_BUILD_DIR=${BUILD_DIR}/${CONFIGURATION}-iphoneos 2>&1\n\n######################\n# Create directory for universal\n######################\n\nrm -rf \"${UNIVERSAL_LIBRARY_DIR}\"\n\nmkdir \"${UNIVERSAL_LIBRARY_DIR}\"\n\nmkdir \"${FRAMEWORK}\"\n\n\n######################\n# Copy files Framework\n######################\n\ncp -r \"${DEVICE_LIBRARY_PATH}/.\" \"${FRAMEWORK}\"\n\n\n######################\n# Make an universal binary\n######################\n\nlipo \"${SIMULATOR_LIBRARY_PATH}/${FRAMEWORK_NAME}\" \"${DEVICE_LIBRARY_PATH}/${FRAMEWORK_NAME}\" -create -output \"${FRAMEWORK}/${FRAMEWORK_NAME}\" | echo\n\n######################\n# On Release, copy the result to release directory\n######################\nOUTPUT_DIR=\"${PROJECT_DIR}/Output/${FRAMEWORK_NAME}-${CONFIGURATION}-iphoneuniversal/\"\n\nrm -rf \"$OUTPUT_DIR\"\nmkdir -p \"$OUTPUT_DIR\"\n\ncp -r \"${FRAMEWORK}\" \"$OUTPUT_DIR\"\n\nif [ ${REVEAL_ARCHIVE_IN_FINDER} = true ]; then\nopen \"${OUTPUT_DIR}/\"\nfi";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -307,7 +307,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: MEDES-INST MEDECINE PHYSIOLOGIE SPATIA";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: MEDES-INST MEDECINE PHYSIOLOGIE SPATIA";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -354,7 +355,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: MEDES-INST MEDECINE PHYSIOLOGIE SPATIA";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: MEDES-INST MEDECINE PHYSIOLOGIE SPATIA";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
